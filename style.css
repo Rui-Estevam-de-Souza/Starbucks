@@ -1,7 +1,7 @@
 
     
 body {
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 
 }
@@ -37,12 +37,13 @@ header .line {
     height: 10px;
     background-color: #117050;
 }
-.area1 h2 {
+ h2 {
     font-size: 45px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     line-height: 50px;
     margin: 40px 0px;
+ 
 }
 
 /*________________________*/
@@ -130,26 +131,128 @@ header .line {
     grid-template-columns: repeat(2, 1fr);
 }
 .area1--content {
-    padding: 90px;
+    padding: 80px;
 }
 .area1--quote {
     margin-bottom: 30px;
 }
 .area1--text {
+    font-size: 19px;
+    margin-bottom: 30px;
     line-height: 25px;
-    margin-bottom: 50px;
 }
 .area1--image1 {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     background-image: url('assets/f1.jpg');
-    background-position: center;
     background-size: cover;
+    background-position: center;
 }
+
 .area1--image2 {
     height: 350px;
     background-image: url('assets/f2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/*__________________________________*/
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area2--content {
+    padding: 80px;
+}
+.area2--text {
+    font-size: 19px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.area2--image1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url('assets/f3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.area2--image2 {
+    height: 450px;
+    background-image: url('assets/f4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/*_____________________________*/
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area3--content {
+    padding: 300px 80px;
+    background-image: url('assets/bg2.jpg');
+    background-position: left;
+    background-size: cover;
+}
+.area3--text {
+    font-size: 19px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.area3--image {
+    background-image: url('assets/f5.jpg');
     background-position: center;
     background-size: cover;
 }
 
+/*______________________________*/
+
+.area4 {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #e8e9ee;
+}
+.area4--content {
+    padding: 200px 80px;
+}
+.area4--image {
+    background-image: url('assets/bg3.jpg');
+    background-size: cover;
+}
+.area4--text {
+    font-size: 19px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+/*________________________*/
+
+.free-image {
+    background-image: url('assets/bg4.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 600px;
+}
+/*________________________*/
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #FFF;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+}
+footer a {
+    color: aqua;
+}
+footer .credits {
+    letter-spacing: 2px;
+}
+/*__________________________*/
